@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Node.js
+node_modules/
+
+# Hardhat
+cache/
+artifacts/
+
+# TSS Wallet Sensitive Data & State
+.node_*_share_*.json
+dkg_snapshot_*.json
+.node_pids.json
+deployment.json
+
+# Testing
+.pytest_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
