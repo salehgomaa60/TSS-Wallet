@@ -326,10 +326,6 @@ MIT — use it, learn from it, build on it.
 
 ---
 
-## Connect
-
-Built by [Your Name] — CS Student at [University]
-
 Open to internship opportunities in:
 cryptography engineering · blockchain infrastructure · 
 Web3 backend development
