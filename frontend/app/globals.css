@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0f111a;
+  --color-foreground: #e2e8f0;
+  
+  --color-primary: #6366f1;
+  --color-primary-foreground: #ffffff;
+  
+  --color-card: rgba(30, 33, 43, 0.6);
+  --color-card-border: rgba(255, 255, 255, 0.08);
+}
+
+@layer base {
+  :root {
+    --background: 230 27% 8%;
+    --foreground: 210 40% 98%;
+    
+    --primary: 234 89% 74%;
+    --primary-foreground: 210 40% 98%;
+    
+    --card: 228 17% 14%;
+    --card-foreground: 210 40% 98%;
+    
+    --border: 228 17% 20%;
+    
+    --destructive: 0 84% 60%;
+    --success: 142 71% 45%;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    background-image: 
+      radial-gradient(circle at 15% 50%, rgba(99, 102, 241, 0.15), transparent 25%),
+      radial-gradient(circle at 85% 30%, rgba(139, 92, 246, 0.15), transparent 25%);
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: var(--color-card);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--color-card-border);
+  }
+}
