@@ -325,9 +325,3 @@ And mirrors the production architecture of:
 MIT — use it, learn from it, build on it.
 
 ---
-
-Open to internship opportunities in:
-cryptography engineering · blockchain infrastructure · 
-Web3 backend development
-
-[LinkedIn](your-linkedin-url) · [Email](your-email)
