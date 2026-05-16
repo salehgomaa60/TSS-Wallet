@@ -67,7 +67,7 @@ JWT_EXPIRY_HOURS = 24
 # Sepolia RPC — Infura
 INFURA_URL = os.getenv(
     "INFURA_URL",
-    "https://sepolia.infura.io/v3/959d08b688b3498a962aee11daf55d38"
+    "https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID"
 )
 
 # Per-company snapshot directory

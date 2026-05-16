@@ -22,7 +22,7 @@ module.exports = {
     // Sepolia testnet — deploy with:
     //   npx hardhat run scripts/deploy.js --network sepolia
     sepolia: {
-      url: process.env.INFURA_URL || "https://sepolia.infura.io/v3/959d08b688b3498a962aee11daf55d38",
+      url: process.env.INFURA_URL || "https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID",
       accounts: process.env.FUNDER_PRIVATE_KEY
         ? [`0x${process.env.FUNDER_PRIVATE_KEY.replace("0x", "")}`]
         : [],

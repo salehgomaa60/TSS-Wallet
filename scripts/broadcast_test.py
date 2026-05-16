@@ -152,7 +152,7 @@ async def run_broadcast_test(to_address: str, amount_eth: float):
             try:
                 from web3 import Web3
                 w3 = Web3(Web3.HTTPProvider(
-                    "https://sepolia.infura.io/v3/959d08b688b3498a962aee11daf55d38"
+                    "https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID"
                 ))
                 tx_bytes = bytes.fromhex(bcast["tx_hash"].replace("0x", ""))
                 for _ in range(24):  # 2 minutes max

@@ -31,7 +31,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 INFURA_URL = os.getenv(
     "INFURA_URL",
-    "https://sepolia.infura.io/v3/959d08b688b3498a962aee11daf55d38"
+    "https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID"
 )
 COORDINATOR_URL = "http://localhost:8000"
 ETHERSCAN_BASE  = "https://sepolia.etherscan.io"
